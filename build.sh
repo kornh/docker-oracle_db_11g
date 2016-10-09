@@ -1,1 +1,3 @@
-docker build -t moonfridge/oracle-db-11g .
+#!/bin/bash
+#$1 - Your basename
+docker build -t $1/oracle-db-11g .
